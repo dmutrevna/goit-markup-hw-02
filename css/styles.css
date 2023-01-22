@@ -3,4 +3,10 @@ ul {
 }
 a {
     text-decoration: none;
+    font-style: normal
 }
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #E7E9FC
+    background-color:#4D5AE5;
+
