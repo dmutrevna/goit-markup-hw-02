@@ -26,6 +26,20 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+/* ====================COMPONENTS============= */
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/* ====================/COMPONENTS============= */
 /*============================HEADER===========*/
 
 .logo {
@@ -74,18 +88,10 @@ body {
   color: #ffffff;
 }
 .btn-order {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
+ 
 }
 .btn-order:hover,
 .btn-order:focus {
@@ -93,21 +99,13 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.btn-menu {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  cursor: pointer;
 
+.btn-menu {
+  text-align: center;
+  color: #4d5ae5;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  
 }
 .btn-menu:hover,
 .btn-menu:focus {
